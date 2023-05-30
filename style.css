@@ -1,0 +1,125 @@
+body {
+    background-color: #242333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+  }
+.Banner{
+    object-fit: fill;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.bt1{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    background-color: #242333;
+    color: rgb(255, 242, 226);
+    display: block;
+    margin-top: 10px;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: start;
+    
+}
+.bt1:hover{
+    background-color: rgb(255, 242, 226);
+    color: #242333;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+a{
+
+    display: block;
+    margin-left: 25px;
+    color:grey;
+}
+a:hover{
+    color: white;
+}
+
+.movie-container {
+    margin: 20px 0;
+  }
+  
+  .movie-container select {
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  .container {
+    perspective: 100px;
+    margin-bottom: 30px;
+  }
+  
+.movies-container {
+    padding-bottom: 2rem;
+}
+.current-movies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.current-movie {
+    background: linear-gradient(45deg, rgba(255, 255, 255, .05), rgba(205, 140, 56, .15));
+    padding: 1rem;
+    border-radius: .5rem;
+    object-fit: contain;
+}
+.cm-img-box {
+    position: relative;
+    height: 250px;
+    width: auto;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.movie-title {
+    color: #fff;
+    margin-bottom: .2rem;
+}
+.booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.price {
+    color: #cd8c38;
+}
+.mve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

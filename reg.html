@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+  </head>
+  <body style=" margin: 0; background-color: #242333; color: #000000; display:
+  flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 100vh;">
+    <a href="index.html"
+    ><img src="images/TB.png" alt="Logo" style="width: 200px; height: 200px"
+  /></a>
+  <div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+          <h1>Movie Booking</h1>
+        </div>
+        <div class="panel-body">
+          <form action="connect.php" method="post">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                name="firstName"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                name="lastName"
+              />
+            </div>
+            <div class="form-group">
+              <label for="Movie">Movie</label>
+              <div>
+                <label for="Fast x" class="radio-inline"
+                  ><input type="radio" name="movie" value="M1" id="MOV1" />Fast
+                  X</label
+                >
+                <label for="Suzume" class="radio-inline"
+                  ><input
+                    type="radio"
+                    name="movie"
+                    value="M2"
+                    id="MOV2"
+                  />Suzume</label
+                >
+                <label for="GOG 3" class="radio-inline"
+                  ><input type="radio" name="movie" value="M3" id="MOV3" />GOG
+                  3</label
+                >
+                <label for="Demon Slayer" class="radio-inline"
+                  ><input type="radio" name="movie" value="M4" id="MOV4" />Demon
+                  slayer</label
+                >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email" name="email" />
+            </div>
+
+            <div class="form-group">
+              <label for="number">Phone Number</label>
+              <input
+                type="number"
+                class="form-control"
+                id="number"
+                name="number"
+              />
+            </div>
+            <input type="submit" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
